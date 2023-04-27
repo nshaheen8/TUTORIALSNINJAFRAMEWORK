@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Ninja Tutorial Automation Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.tutorialninja.qa.listeners.MyListeners"/>
+  </listeners>
+  <test thread-count="5" name="Ninja Tutorial Testcases(failed)">
+    <classes>
+      <class name="com.tutorialninja.qa.testcases.SearchTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="enterSearchField" invocation-numbers="1 5 7"/>
+        </methods>
+      </class> <!-- com.tutorialninja.qa.testcases.SearchTest -->
+    </classes>
+  </test> <!-- Ninja Tutorial Testcases(failed) -->
+</suite> <!-- Failed suite [Ninja Tutorial Automation Suite] -->

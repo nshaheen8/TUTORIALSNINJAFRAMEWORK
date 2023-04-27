@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="19" passed="16" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-27T16:04:37Z" name="Ninja Tutorial Automation Suite" finished-at="2023-04-27T16:11:32Z" duration-ms="415278">
+    <groups>
+    </groups>
+    <test started-at="2023-04-27T16:04:37Z" name="Ninja Tutorial Testcases" finished-at="2023-04-27T16:11:32Z" duration-ms="415278">
+      <class name="com.tutorialninja.qa.testcases.SearchTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialninja.qa.testcases.SearchTest@33fe57a9]" started-at="2023-04-27T16:05:57Z" name="setUp" finished-at="2023-04-27T16:06:15Z" duration-ms="17618" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="enterSearchField(java.lang.String)[pri:1, instance:com.tutorialninja.qa.testcases.SearchTest@33fe57a9]" started-at="2023-04-27T16:06:15Z" name="enterSearchField" data-provider="TutorialNinjaDataProviderSearch" finished-at="2023-04-27T16:06:29Z" duration-ms="14199" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Desktops]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterSearchField -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialninja.qa.testcases.SearchTest@33fe57a9]" started-at="2023-04-27T16:06:29Z" name="tearDown" finished-at="2023-04-27T16:06:30Z" duration-ms="856" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialninja.qa.testcases.SearchTest@33fe57a9]" started-at="2023-04-27T16:06:30Z" name="setUp" finished-at="2023-04-27T16:06:39Z" duration-ms="9507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="enterSearchField(java.lang.String)[pri:1, instance:com.tutorialninja.qa.testcases.SearchTest@33fe57a9]" started-at="2023-04-27T16:06:39Z" name="enterSearchField" data-provider="TutorialNinjaDataProviderSearch" finished-at="2023-04-27T16:07:00Z" duration-ms="20471" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Laptops&Notebooks]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Cannot locate option with text: Laptops&Notebooks
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate option with text: Laptops&Notebooks
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: driver.version: unknown
+at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:153)
+at com.tutorialninja.qa.testcases.SearchTest.enterSearchField(SearchTest.java:51)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterSearchField -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialninja.qa.testcases.SearchTest@33fe57a9]" started-at="2023-04-27T16:07:01Z" name="tearDown" finished-at="2023-04-27T16:07:02Z" duration-ms="1380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialninja.qa.testcases.SearchTest@33fe57a9]" started-at="2023-04-27T16:07:02Z" name="setUp" finished-at="2023-04-27T16:07:19Z" duration-ms="16180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="enterSearchField(java.lang.String)[pri:1, instance:com.tutorialninja.qa.testcases.SearchTest@33fe57a9]" started-at="2023-04-27T16:07:19Z" name="enterSearchField" data-provider="TutorialNinjaDataProviderSearch" finished-at="2023-04-27T16:07:29Z" duration-ms="10423" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Components]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterSearchField -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialninja.qa.testcases.SearchTest@33fe57a9]" started-at="2023-04-27T16:07:29Z" name="tearDown" finished-at="2023-04-27T16:07:30Z" duration-ms="1058" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialninja.qa.testcases.SearchTest@33fe57a9]" started-at="2023-04-27T16:07:30Z" name="setUp" finished-at="2023-04-27T16:07:39Z" duration-ms="8600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="enterSearchField(java.lang.String)[pri:1, instance:com.tutorialninja.qa.testcases.SearchTest@33fe57a9]" started-at="2023-04-27T16:07:39Z" name="enterSearchField" data-provider="TutorialNinjaDataProviderSearch" finished-at="2023-04-27T16:07:49Z" duration-ms="9916" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tablets]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterSearchField -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialninja.qa.testcases.SearchTest@33fe57a9]" started-at="2023-04-27T16:07:49Z" name="tearDown" finished-at="2023-04-27T16:07:49Z" duration-ms="622" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialninja.qa.testcases.SearchTest@33fe57a9]" started-at="2023-04-27T16:07:49Z" name="setUp" finished-at="2023-04-27T16:07:59Z" duration-ms="10154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="enterSearchField(java.lang.String)[pri:1, instance:com.tutorialninja.qa.testcases.SearchTest@33fe57a9]" started-at="2023-04-27T16:07:59Z" name="enterSearchField" data-provider="TutorialNinjaDataProviderSearch" finished-at="2023-04-27T16:08:09Z" duration-ms="9953" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Software]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterSearchField -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialninja.qa.testcases.SearchTest@33fe57a9]" started-at="2023-04-27T16:08:09Z" name="tearDown" finished-at="2023-04-27T16:08:10Z" duration-ms="737" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialninja.qa.testcases.SearchTest@33fe57a9]" started-at="2023-04-27T16:08:10Z" name="setUp" finished-at="2023-04-27T16:08:19Z" duration-ms="8969" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="enterSearchField(java.lang.String)[pri:1, instance:com.tutorialninja.qa.testcases.SearchTest@33fe57a9]" started-at="2023-04-27T16:08:19Z" name="enterSearchField" data-provider="TutorialNinjaDataProviderSearch" finished-at="2023-04-27T16:08:39Z" duration-ms="19783" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Phones&PDAs]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Cannot locate option with text: Phones&PDAs
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate option with text: Phones&PDAs
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: driver.version: unknown
+at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:153)
+at com.tutorialninja.qa.testcases.SearchTest.enterSearchField(SearchTest.java:51)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterSearchField -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialninja.qa.testcases.SearchTest@33fe57a9]" started-at="2023-04-27T16:08:40Z" name="tearDown" finished-at="2023-04-27T16:08:45Z" duration-ms="5766" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialninja.qa.testcases.SearchTest@33fe57a9]" started-at="2023-04-27T16:08:45Z" name="setUp" finished-at="2023-04-27T16:08:58Z" duration-ms="12938" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="enterSearchField(java.lang.String)[pri:1, instance:com.tutorialninja.qa.testcases.SearchTest@33fe57a9]" started-at="2023-04-27T16:08:58Z" name="enterSearchField" data-provider="TutorialNinjaDataProviderSearch" finished-at="2023-04-27T16:09:08Z" duration-ms="9967" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Cameras]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterSearchField -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialninja.qa.testcases.SearchTest@33fe57a9]" started-at="2023-04-27T16:09:08Z" name="tearDown" finished-at="2023-04-27T16:09:09Z" duration-ms="974" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialninja.qa.testcases.SearchTest@33fe57a9]" started-at="2023-04-27T16:09:09Z" name="setUp" finished-at="2023-04-27T16:09:16Z" duration-ms="6820" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="enterSearchField(java.lang.String)[pri:1, instance:com.tutorialninja.qa.testcases.SearchTest@33fe57a9]" started-at="2023-04-27T16:09:16Z" name="enterSearchField" data-provider="TutorialNinjaDataProviderSearch" finished-at="2023-04-27T16:09:36Z" duration-ms="19859" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MP3Players]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Cannot locate option with text: MP3Players
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate option with text: MP3Players
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: driver.version: unknown
+at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:153)
+at com.tutorialninja.qa.testcases.SearchTest.enterSearchField(SearchTest.java:51)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterSearchField -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialninja.qa.testcases.SearchTest@33fe57a9]" started-at="2023-04-27T16:09:37Z" name="tearDown" finished-at="2023-04-27T16:09:41Z" duration-ms="3960" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tutorialninja.qa.testcases.SearchTest -->
+      <class name="com.tutorialninja.qa.testcases.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialninja.qa.testcases.LoginTest@4982cc36]" started-at="2023-04-27T16:09:41Z" name="setUp" finished-at="2023-04-27T16:09:53Z" duration-ms="12372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyNinjaTutorialLoginWithValidUsernameAndValidPassword(java.lang.String, java.lang.String)[pri:1, instance:com.tutorialninja.qa.testcases.LoginTest@4982cc36]" started-at="2023-04-27T16:09:53Z" name="verifyNinjaTutorialLoginWithValidUsernameAndValidPassword" data-provider="NinjaTutorialExcelDataWithDataProvider" finished-at="2023-04-27T16:09:55Z" duration-ms="1285" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nshaheen973@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNinjaTutorialLoginWithValidUsernameAndValidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialninja.qa.testcases.LoginTest@4982cc36]" started-at="2023-04-27T16:09:55Z" name="tearDown" finished-at="2023-04-27T16:09:55Z" duration-ms="507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialninja.qa.testcases.LoginTest@4982cc36]" started-at="2023-04-27T16:09:55Z" name="setUp" finished-at="2023-04-27T16:10:03Z" duration-ms="7879" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyNinjaTutorialLoginWithValidUsernameAndValidPassword(java.lang.String, java.lang.String)[pri:1, instance:com.tutorialninja.qa.testcases.LoginTest@4982cc36]" started-at="2023-04-27T16:10:03Z" name="verifyNinjaTutorialLoginWithValidUsernameAndValidPassword" data-provider="NinjaTutorialExcelDataWithDataProvider" finished-at="2023-04-27T16:10:04Z" duration-ms="1098" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jamestravor23@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[James@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNinjaTutorialLoginWithValidUsernameAndValidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialninja.qa.testcases.LoginTest@4982cc36]" started-at="2023-04-27T16:10:04Z" name="tearDown" finished-at="2023-04-27T16:10:05Z" duration-ms="368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialninja.qa.testcases.LoginTest@4982cc36]" started-at="2023-04-27T16:10:05Z" name="setUp" finished-at="2023-04-27T16:10:14Z" duration-ms="8902" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyNinjaTutorialLoginWithValidUsernameAndValidPassword(java.lang.String, java.lang.String)[pri:1, instance:com.tutorialninja.qa.testcases.LoginTest@4982cc36]" started-at="2023-04-27T16:10:14Z" name="verifyNinjaTutorialLoginWithValidUsernameAndValidPassword" data-provider="NinjaTutorialExcelDataWithDataProvider" finished-at="2023-04-27T16:10:15Z" duration-ms="1178" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[smita23@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Smita@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNinjaTutorialLoginWithValidUsernameAndValidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialninja.qa.testcases.LoginTest@4982cc36]" started-at="2023-04-27T16:10:15Z" name="tearDown" finished-at="2023-04-27T16:10:15Z" duration-ms="434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialninja.qa.testcases.LoginTest@4982cc36]" started-at="2023-04-27T16:10:15Z" name="setUp" finished-at="2023-04-27T16:10:24Z" duration-ms="8946" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyNinjaTutorialLoginWithValidUsernameAndValidPassword(java.lang.String, java.lang.String)[pri:1, instance:com.tutorialninja.qa.testcases.LoginTest@4982cc36]" started-at="2023-04-27T16:10:24Z" name="verifyNinjaTutorialLoginWithValidUsernameAndValidPassword" data-provider="NinjaTutorialExcelDataWithDataProvider" finished-at="2023-04-27T16:10:25Z" duration-ms="1380" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[seleniumpanda@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNinjaTutorialLoginWithValidUsernameAndValidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialninja.qa.testcases.LoginTest@4982cc36]" started-at="2023-04-27T16:10:25Z" name="tearDown" finished-at="2023-04-27T16:10:26Z" duration-ms="557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialninja.qa.testcases.LoginTest@4982cc36]" started-at="2023-04-27T16:10:37Z" name="setUp" finished-at="2023-04-27T16:10:46Z" duration-ms="9021" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyNinjaTutorialLoginWithInvalidUsernameAndInvalidPassword()[pri:2, instance:com.tutorialninja.qa.testcases.LoginTest@4982cc36]" started-at="2023-04-27T16:10:46Z" name="verifyNinjaTutorialLoginWithInvalidUsernameAndInvalidPassword" finished-at="2023-04-27T16:10:47Z" duration-ms="908" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNinjaTutorialLoginWithInvalidUsernameAndInvalidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialninja.qa.testcases.LoginTest@4982cc36]" started-at="2023-04-27T16:10:47Z" name="tearDown" finished-at="2023-04-27T16:10:47Z" duration-ms="487" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialninja.qa.testcases.LoginTest@4982cc36]" started-at="2023-04-27T16:10:47Z" name="setUp" finished-at="2023-04-27T16:10:55Z" duration-ms="8167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyNinjaTutorialLoginWithValidUsernameAndInvalidPassword()[pri:3, instance:com.tutorialninja.qa.testcases.LoginTest@4982cc36]" started-at="2023-04-27T16:10:55Z" name="verifyNinjaTutorialLoginWithValidUsernameAndInvalidPassword" finished-at="2023-04-27T16:10:56Z" duration-ms="868" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNinjaTutorialLoginWithValidUsernameAndInvalidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialninja.qa.testcases.LoginTest@4982cc36]" started-at="2023-04-27T16:10:56Z" name="tearDown" finished-at="2023-04-27T16:10:56Z" duration-ms="361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialninja.qa.testcases.LoginTest@4982cc36]" started-at="2023-04-27T16:10:56Z" name="setUp" finished-at="2023-04-27T16:11:04Z" duration-ms="7435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyNinjaTutorialLoginWithEmptyUsernameAndvalidPassword()[pri:4, instance:com.tutorialninja.qa.testcases.LoginTest@4982cc36]" started-at="2023-04-27T16:11:04Z" name="verifyNinjaTutorialLoginWithEmptyUsernameAndvalidPassword" finished-at="2023-04-27T16:11:05Z" duration-ms="706" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNinjaTutorialLoginWithEmptyUsernameAndvalidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialninja.qa.testcases.LoginTest@4982cc36]" started-at="2023-04-27T16:11:05Z" name="tearDown" finished-at="2023-04-27T16:11:05Z" duration-ms="362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialninja.qa.testcases.LoginTest@4982cc36]" started-at="2023-04-27T16:11:05Z" name="setUp" finished-at="2023-04-27T16:11:14Z" duration-ms="9455" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyNinjaTutorialLoginWithValidUsernameAndEmptyPassword()[pri:5, instance:com.tutorialninja.qa.testcases.LoginTest@4982cc36]" started-at="2023-04-27T16:11:14Z" name="verifyNinjaTutorialLoginWithValidUsernameAndEmptyPassword" finished-at="2023-04-27T16:11:16Z" duration-ms="1861" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNinjaTutorialLoginWithValidUsernameAndEmptyPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialninja.qa.testcases.LoginTest@4982cc36]" started-at="2023-04-27T16:11:16Z" name="tearDown" finished-at="2023-04-27T16:11:17Z" duration-ms="281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialninja.qa.testcases.LoginTest@4982cc36]" started-at="2023-04-27T16:11:17Z" name="setUp" finished-at="2023-04-27T16:11:31Z" duration-ms="14782" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyNinjaTutorialLoginWithEmptyUsernameAndEmptyPassword()[pri:6, instance:com.tutorialninja.qa.testcases.LoginTest@4982cc36]" started-at="2023-04-27T16:11:31Z" name="verifyNinjaTutorialLoginWithEmptyUsernameAndEmptyPassword" finished-at="2023-04-27T16:11:32Z" duration-ms="544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNinjaTutorialLoginWithEmptyUsernameAndEmptyPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialninja.qa.testcases.LoginTest@4982cc36]" started-at="2023-04-27T16:11:32Z" name="tearDown" finished-at="2023-04-27T16:11:32Z" duration-ms="417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tutorialninja.qa.testcases.LoginTest -->
+      <class name="com.tutorialninja.qa.testcases.RegisterTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialninja.qa.testcases.RegisterTest@2c1156a7]" started-at="2023-04-27T16:04:38Z" name="setUp" finished-at="2023-04-27T16:05:48Z" duration-ms="70825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="enterAllValidFields()[pri:1, instance:com.tutorialninja.qa.testcases.RegisterTest@2c1156a7]" started-at="2023-04-27T16:05:48Z" name="enterAllValidFields" finished-at="2023-04-27T16:05:53Z" duration-ms="4888" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterAllValidFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialninja.qa.testcases.RegisterTest@2c1156a7]" started-at="2023-04-27T16:05:53Z" name="tearDown" finished-at="2023-04-27T16:05:57Z" duration-ms="3721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialninja.qa.testcases.RegisterTest@2c1156a7]" started-at="2023-04-27T16:10:26Z" name="setUp" finished-at="2023-04-27T16:10:35Z" duration-ms="8796" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="enterSameCredentialsAllValidFields()[pri:2, instance:com.tutorialninja.qa.testcases.RegisterTest@2c1156a7]" started-at="2023-04-27T16:10:35Z" name="enterSameCredentialsAllValidFields" finished-at="2023-04-27T16:10:36Z" duration-ms="1474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterSameCredentialsAllValidFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialninja.qa.testcases.RegisterTest@2c1156a7]" started-at="2023-04-27T16:10:36Z" name="tearDown" finished-at="2023-04-27T16:10:37Z" duration-ms="360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tutorialninja.qa.testcases.RegisterTest -->
+    </test> <!-- Ninja Tutorial Testcases -->
+  </suite> <!-- Ninja Tutorial Automation Suite -->
+</testng-results>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="217014" started-at="2023-04-24T22:43:34Z" finished-at="2023-04-24T22:47:11Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="217014" started-at="2023-04-24T22:43:34Z" finished-at="2023-04-24T22:47:11Z">
+      <class name="com.tutorialninja.qa.testcases.SearchTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.tutorialninja.qa.testcases.SearchTest@34cd072c]" name="setUp" is-config="true" duration-ms="13202" started-at="2023-04-24T22:46:56Z" finished-at="2023-04-24T22:47:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="enterSearchField()[pri:1, instance:com.tutorialninja.qa.testcases.SearchTest@34cd072c]" name="enterSearchField" duration-ms="997" started-at="2023-04-24T22:47:09Z" finished-at="2023-04-24T22:47:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterSearchField -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tutorialninja.qa.testcases.SearchTest@34cd072c]" name="tearDown" is-config="true" duration-ms="811" started-at="2023-04-24T22:47:10Z" finished-at="2023-04-24T22:47:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tutorialninja.qa.testcases.SearchTest -->
+      <class name="com.tutorialninja.qa.testcases.LoginTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.tutorialninja.qa.testcases.LoginTest@458c1321]" name="setUp" is-config="true" duration-ms="98717" started-at="2023-04-24T22:43:35Z" finished-at="2023-04-24T22:45:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyNinjaTutorialLoginWithValidUsernameAndValidPassword(java.lang.String, java.lang.String)[pri:1, instance:com.tutorialninja.qa.testcases.LoginTest@458c1321]" name="verifyNinjaTutorialLoginWithValidUsernameAndValidPassword" duration-ms="2004" started-at="2023-04-24T22:45:14Z" data-provider="NinjaTutorialExcelDataWithDataProvider" finished-at="2023-04-24T22:45:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nshaheen973@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNinjaTutorialLoginWithValidUsernameAndValidPassword -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tutorialninja.qa.testcases.LoginTest@458c1321]" name="tearDown" is-config="true" duration-ms="1555" started-at="2023-04-24T22:45:16Z" finished-at="2023-04-24T22:45:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.tutorialninja.qa.testcases.LoginTest@458c1321]" name="setUp" is-config="true" duration-ms="18403" started-at="2023-04-24T22:45:17Z" finished-at="2023-04-24T22:45:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyNinjaTutorialLoginWithValidUsernameAndValidPassword(java.lang.String, java.lang.String)[pri:1, instance:com.tutorialninja.qa.testcases.LoginTest@458c1321]" name="verifyNinjaTutorialLoginWithValidUsernameAndValidPassword" duration-ms="1150" started-at="2023-04-24T22:45:36Z" data-provider="NinjaTutorialExcelDataWithDataProvider" finished-at="2023-04-24T22:45:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jamestravor23@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[James@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNinjaTutorialLoginWithValidUsernameAndValidPassword -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tutorialninja.qa.testcases.LoginTest@458c1321]" name="tearDown" is-config="true" duration-ms="938" started-at="2023-04-24T22:45:37Z" finished-at="2023-04-24T22:45:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.tutorialninja.qa.testcases.LoginTest@458c1321]" name="setUp" is-config="true" duration-ms="10855" started-at="2023-04-24T22:45:38Z" finished-at="2023-04-24T22:45:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyNinjaTutorialLoginWithValidUsernameAndValidPassword(java.lang.String, java.lang.String)[pri:1, instance:com.tutorialninja.qa.testcases.LoginTest@458c1321]" name="verifyNinjaTutorialLoginWithValidUsernameAndValidPassword" duration-ms="1190" started-at="2023-04-24T22:45:48Z" data-provider="NinjaTutorialExcelDataWithDataProvider" finished-at="2023-04-24T22:45:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[smita23@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Smita@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNinjaTutorialLoginWithValidUsernameAndValidPassword -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tutorialninja.qa.testcases.LoginTest@458c1321]" name="tearDown" is-config="true" duration-ms="759" started-at="2023-04-24T22:45:50Z" finished-at="2023-04-24T22:45:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.tutorialninja.qa.testcases.LoginTest@458c1321]" name="setUp" is-config="true" duration-ms="10262" started-at="2023-04-24T22:45:50Z" finished-at="2023-04-24T22:46:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyNinjaTutorialLoginWithValidUsernameAndValidPassword(java.lang.String, java.lang.String)[pri:1, instance:com.tutorialninja.qa.testcases.LoginTest@458c1321]" name="verifyNinjaTutorialLoginWithValidUsernameAndValidPassword" duration-ms="1287" started-at="2023-04-24T22:46:01Z" data-provider="NinjaTutorialExcelDataWithDataProvider" finished-at="2023-04-24T22:46:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[seleniumpanda@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNinjaTutorialLoginWithValidUsernameAndValidPassword -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tutorialninja.qa.testcases.LoginTest@458c1321]" name="tearDown" is-config="true" duration-ms="941" started-at="2023-04-24T22:46:02Z" finished-at="2023-04-24T22:46:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tutorialninja.qa.testcases.LoginTest -->
+      <class name="com.tutorialninja.qa.testcases.RegisterTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.tutorialninja.qa.testcases.RegisterTest@11438d26]" name="setUp" is-config="true" duration-ms="16990" started-at="2023-04-24T22:46:03Z" finished-at="2023-04-24T22:46:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="enterAllValidFields()[pri:1, instance:com.tutorialninja.qa.testcases.RegisterTest@11438d26]" name="enterAllValidFields" duration-ms="29392" started-at="2023-04-24T22:46:20Z" finished-at="2023-04-24T22:46:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterAllValidFields -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tutorialninja.qa.testcases.RegisterTest@11438d26]" name="tearDown" is-config="true" duration-ms="6593" started-at="2023-04-24T22:46:49Z" finished-at="2023-04-24T22:46:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tutorialninja.qa.testcases.RegisterTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
